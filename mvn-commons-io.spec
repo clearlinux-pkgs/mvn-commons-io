@@ -4,7 +4,7 @@
 #
 Name     : mvn-commons-io
 Version  : 1.4
-Release  : 1
+Release  : 2
 URL      : https://repo1.maven.org/maven2/commons-io/commons-io/1.4/commons-io-1.4.jar
 Source0  : https://repo1.maven.org/maven2/commons-io/commons-io/1.4/commons-io-1.4.jar
 Source1  : https://repo1.maven.org/maven2/commons-io/commons-io/1.4/commons-io-1.4.pom
@@ -38,38 +38,38 @@ data components for the mvn-commons-io package.
 %build
 
 %install
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/o/1.4
-cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/commons-io/o/1.4
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/1.4
+cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/1.4
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/o/1.4
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/commons-io/o/1.4
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/1.4
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/1.4
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/o/2.1
-cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/commons-io/o/2.1
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/2.1
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/2.1
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/o/2.2
-cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/commons-io/o/2.2
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/2.2
+cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/2.2
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/o/2.2
-cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/commons-io/o/2.2
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/2.2
+cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/2.2
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/o/2.4
-cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/commons-io/o/2.4
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/2.4
+cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/2.4
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/o/2.4
-cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/commons-io/o/2.4
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/2.4
+cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/2.4
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/o/2.5
-cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/commons-io/o/2.5
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/2.5
+cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/2.5
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/o/2.5
-cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/commons-io/o/2.5
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/2.5
+cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/2.5
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/o/2.6
-cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/commons-io/o/2.6
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/2.6
+cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/2.6
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/o/2.6
-cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/commons-io/o/2.6
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/2.6
+cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/commons-io/commons-io/2.6
 
 
 %files
@@ -77,14 +77,14 @@ cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/commons-io/o/2.6
 
 %files data
 %defattr(-,root,root,-)
-/usr/share/java/.m2/repository/commons-io/o/1.4/commons-io-1.4.jar
-/usr/share/java/.m2/repository/commons-io/o/1.4/commons-io-1.4.pom
-/usr/share/java/.m2/repository/commons-io/o/2.1/commons-io-2.1.pom
-/usr/share/java/.m2/repository/commons-io/o/2.2/commons-io-2.2.jar
-/usr/share/java/.m2/repository/commons-io/o/2.2/commons-io-2.2.pom
-/usr/share/java/.m2/repository/commons-io/o/2.4/commons-io-2.4.jar
-/usr/share/java/.m2/repository/commons-io/o/2.4/commons-io-2.4.pom
-/usr/share/java/.m2/repository/commons-io/o/2.5/commons-io-2.5.jar
-/usr/share/java/.m2/repository/commons-io/o/2.5/commons-io-2.5.pom
-/usr/share/java/.m2/repository/commons-io/o/2.6/commons-io-2.6.jar
-/usr/share/java/.m2/repository/commons-io/o/2.6/commons-io-2.6.pom
+/usr/share/java/.m2/repository/commons-io/commons-io/1.4/commons-io-1.4.jar
+/usr/share/java/.m2/repository/commons-io/commons-io/1.4/commons-io-1.4.pom
+/usr/share/java/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.pom
+/usr/share/java/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar
+/usr/share/java/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.pom
+/usr/share/java/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar
+/usr/share/java/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.pom
+/usr/share/java/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar
+/usr/share/java/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.pom
+/usr/share/java/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar
+/usr/share/java/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.pom
